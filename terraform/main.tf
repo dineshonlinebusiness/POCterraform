@@ -4,7 +4,7 @@ provider "aws" {
 
 # S3 Bucket
 resource "aws_s3_bucket" "website_bucket" {
-  bucket = "hello-world-terraform-bucket-POC"
+  bucket = "hello-world-terraform-bucket-poc"
   force_destroy = true
 }
 
